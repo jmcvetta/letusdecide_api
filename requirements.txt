@@ -1,4 +1,4 @@
-Django==1.7c2
+git+https://github.com/django/django.git@stable/1.7.x#egg=Django
 argparse==1.2.1
 dj-database-url==0.3.0
 dj-static==0.0.6
