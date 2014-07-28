@@ -1,0 +1,31 @@
+# We're using Django 1.7 pre-release.  When the final release is out, update
+# the following line to "django>=1.7".
+git+https://github.com/django/django.git@stable/1.7.x#egg=Django
+#
+psycopg2     # PostgreSQL driver
+gunicorn     # Webserver
+static       # Static file server
+#pillow       # Image processing library
+#boto         # AWS support
+#mock         # Test mocking library
+factory_boy  # Fixtures replacement
+#pytz         # Timezones
+#-------------------------------------------------------------------------------
+# Django Plugins
+#-------------------------------------------------------------------------------
+dj-database-url      # DB config from $DATABASE_URL
+dj-static            # Static file plugin
+django-nose          # Testing framework
+djangorestframework  # REST API framework
+#django-localflavor   # Localization
+#easy-thumbnails      # Thumbnails
+django-sslify        # Force SSL use
+#django-storages      # Storage backends
+#-------------------------------------------------------------------------------
+#fixture
+#DjangoFixture 
+#django-imagekit 
+#django-extensions 
+#django-smtp-ssl
+
+#django-app-metrics
